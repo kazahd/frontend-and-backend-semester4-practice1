@@ -1,0 +1,18 @@
+$primary-color: #e130db;
+$theme: dark;
+
+@mixin flex-center() {
+
+    .product-card {
+    // стили самой карточки
+    
+    &__image {  }
+    &__title {  }
+    &__description { }
+    &__button {  }
+    
+    // можно добавить модификатор
+    &--sale {  }
+}
+
+}
