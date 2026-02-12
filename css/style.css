@@ -5,6 +5,40 @@
   background-color: #fff;
   border-radius: 12px;
 }
+.product-card__image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.product-card__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+  text-align: center;
+}
+.product-card__description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product-card__button {
+  background-color: #e130db;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.product-card__button:hover {
+  background-color: rgb(193.8987341772, 28.1012658228, 188.2784810127);
+}
 .product-card {
   display: flex;
   flex-direction: column;
